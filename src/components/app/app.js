@@ -23,7 +23,7 @@ const App = () => {
         todoData: [
             createTodoItem('Drink coffee'),
             createTodoItem('Make todo app'),
-            createTodoItem('Sent it to Mindbox')
+            createTodoItem('Send it to Mindbox')
         ],
         filter: 'All'
     })
