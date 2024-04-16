@@ -1,0 +1,38 @@
+.filters-panel {
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    background-color: #FFFFFF;
+    border: 1px solid #f5f3f4;
+}
+
+.filters-panel>p {
+    font-size: 25px;
+    font-weight: 200;
+    color: #6c757d;
+}
+
+.filters-panel button {
+    font-size: 25px;
+    font-weight: 200;
+    border: none;
+    background: none;
+    color: #6c757d;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.filters-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+button.selected {
+    border: 1px solid #6c757d;
+    border-radius: 5px;
+}
